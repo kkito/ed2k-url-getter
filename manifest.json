@@ -1,0 +1,14 @@
+{
+  "name": "ed2k url getter",
+    "version": "1.0",
+    "description": "get the ed2k url from verycd search file result page",
+    "browser_action": {
+      "default_icon": "icon.png",
+      "popup": "popup.html"
+
+    },
+    "permissions": [
+      "tabs",
+    "http://*/*"
+      ]
+}

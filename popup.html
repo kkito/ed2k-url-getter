@@ -1,0 +1,17 @@
+<script>
+  function testfun(){
+    /*
+    active_window = chrome.tabs.getSelected(null , function(thistab){
+      alert(thistab.id);
+      alert(thistab.url);
+      alert(thistab.title);
+      alert(thistab.status);
+    });
+    */
+    //alert(1);
+    //console.log("hell world");
+    chrome.tabs.executeScript(null, {file: "content_script.js"});
+    //alert(2);
+  }
+</script>
+<input type="button" value="get ed2k url" onclick="testfun()"/>
